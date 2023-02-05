@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Archivo+Black&family=Quattrocento+Sans&display=swap');
+
+$primary_white: #ffffff;
+$primary_black: black;
+$border_color: rgba(0, 0, 0, 0.589);
+$hover: rgb(234, 234, 234);
+;
+$primary_font: 'Quattrocento Sans',
+sans-serif;
+
+.footer {
+    height: 14vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer nav {
+    border: 2px solid $border_color;
+    padding: 1vh 4vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer nav:hover {
+    background-color: $hover;
+    padding: 1vh 4vh;
+    border-radius: 10px;
+    color: $primary_white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: $primary_black;
+    font-family: $primary_font;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer .bigImage {
+    width: 10vw;
+}
+
+.smallImage:hover {
+    opacity: 0.7;
+}
+
+.footer .smallImage {
+    width: 5vw;
+}

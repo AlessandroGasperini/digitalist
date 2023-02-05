@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Archivo+Black&family=Quattrocento+Sans&display=swap");
+.mainButton {
+  width: 30%;
+  height: 5vh;
+  margin: 4vw auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #3ebea3;
+  color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 800; }
+
+.mainButton:hover {
+  background-color: #3ebea2aa; }

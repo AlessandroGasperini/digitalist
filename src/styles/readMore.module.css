@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Archivo+Black&family=Quattrocento+Sans&display=swap");
+.readMore {
+  background-color: rgba(0, 0, 0, 0.564);
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  bottom: 0;
+  color: #ffffff;
+  display: inline-grid;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.612);
+  left: 0; }
+
+.readMoreWide {
+  max-width: 66vh;
+  color: #ffffff;
+  display: inline-grid;
+  background-color: #000000d4;
+  border-radius: 16px; }
+
+.readMore h3,
+.readMoreWide h3 {
+  text-align: center;
+  font-family: "Quattrocento Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.5rem; }
+
+.readMore p,
+.readMoreWide p {
+  margin: 0 6vh;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 140%; }
