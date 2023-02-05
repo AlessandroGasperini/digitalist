@@ -17,8 +17,13 @@ function NavBar(props: wide) {
     const [menu, setMenu] = useState<boolean>(false)
     const wide: boolean = props.wide
     const open = Boolean(anchorEl);
-    window.addEventListener('resize', () => setOpenSearchBar(false))
+    window.addEventListener('resize', () => resize())
 
+    function resize() {
+        setOpenSearchBar(false)
+        setMenu(false)
+        handleClose()
+    }
     const handleClick = (event: any) => { // mui event object brings a bit to much content for a interface :)
         setAnchorEl(event.currentTarget);
         setMenu(true)
