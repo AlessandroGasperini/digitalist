@@ -155,7 +155,7 @@
   position: relative;
   cursor: pointer;
   outline: none;
-  margin: 1vw; }
+  margin: 12px; }
 
 #hamburger span {
   display: block;

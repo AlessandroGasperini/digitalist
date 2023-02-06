@@ -24,11 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:js": "parcel public/index.html --open",
-    "build:css": "node-sass src/ -o src/",
-    "build": "npm-run-all build:* start",
-    "watch:css": "npm run build:css && node-sass src/ -o src/ -w --race",
-    "start": "npm-run-all -p watch:css start:js"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
